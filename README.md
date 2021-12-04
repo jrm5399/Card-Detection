@@ -20,5 +20,17 @@ Using edge detection, extracts cards and chips from images.
 ![Card_Edge](images/card_contour.png)
 **Shows how it can extract a chip from an image**
 ![Chip_Edge](images/playing_chip_contour.png)
-**RESULTS**
-![Chip_Res](images/chip_result.png)
+
+# Training Results
+![train](images/result.png)
+
+# Clustering
+* Uses K means
+* Clusters off of Bounding Boxes top left Point
+* Puts X,Y coordinates into Klusters
+* Ignores excess Bounding Boxes by filtering out the cards bottom right Bounding Box
+
+# End Results
+* Clusters nearest cards into hands
+![hands](images/hands.png)
+![CMD](images/CMD_res.png)
