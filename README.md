@@ -7,6 +7,8 @@ Senior Design project that detects cards in real time and clusters cards into ha
 * The reason we implemented YOLO over other models such as Faster RCNN or RetinaNet is because YOLO is a quick network that helps with a faster FPS for the project.
 
 # Training Process
-
+* Trained on Synthetic Image Generation
 ## Synthetic Image Generation
-* 
+* Using edge detection, extracts cards and chips from images
+![Card_Edge]()
+![Chip_Edge]()
