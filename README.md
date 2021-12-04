@@ -12,6 +12,7 @@ Senior Design project that detects cards in real time and clusters cards into ha
 * Uses transfer learning with DarkNet
 # Synthetic Image Generation
 Using edge detection, extracts cards and chips from images.
+
 **Shows how it can extract a card an image**
 ![Card_Edge](images/card_contour.png)
 **Shows how it can extract a chip fromn an image**
