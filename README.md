@@ -10,5 +10,5 @@ Senior Design project that detects cards in real time and clusters cards into ha
 * Trained on Synthetic Image Generation
 ## Synthetic Image Generation
 * Using edge detection, extracts cards and chips from images
-![Card_Edge]()
-![Chip_Edge]()
+![Card_Edge](images/card_contour.png)
+![Chip_Edge](images/playing_chip_contour.png)
